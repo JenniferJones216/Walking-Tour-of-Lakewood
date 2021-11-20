@@ -1,31 +1,5 @@
 {
-  "name": "m5-public-api-jenniferjones216",
-  "version": "1.0.0",
-  "description": "- To prepare a small working JavaScript application that you can deploy to GitHub pages and show off to employers\r - To focus on good git practices\r - To focus on clean code\r - To review HTML, CSS, JavaScript functions, and the fetch API\r - To experiment with Postman, a workspace to test out API requests\r ## Requirements\r Have fun with this project! Locate a public API, access its data, and present information to your user through the browser.",
-  "main": "index.js",
-  "directories": {
-    "lib": "lib"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-cli serve --mode development --static docs/ --open"
-  },
-
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/2021-Fall-Cohort/m5-public-api-JenniferJones216.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/2021-Fall-Cohort/m5-public-api-JenniferJones216/issues"
-  },
-  "homepage": "https://github.com/2021-Fall-Cohort/m5-public-api-JenniferJones216#readme",
-  "devDependencies": {
-    "@googlemaps/js-api-loader": "^1.12.9",
-    "webpack": "^5.64.0",
-    "webpack-cli": "^4.9.1",
-    "webpack-dev-server": "^4.5.0"
+  "dependencies": {
+    "@googlemaps/js-api-loader": "^1.12.9"
   }
 }
