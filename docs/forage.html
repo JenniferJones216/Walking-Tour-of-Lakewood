@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lakewood Walking Tour</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <link rel="stylesheet" type="text/css" href="/src/css/style.css" />
+    <script src="../src/js/app.js"></script>    
+  </head>
+  <body>
+    <header>
+        <h4>Lakewood Walking Tour</h4>
+        <h1 id="Title">6. Forage Public House</h1>
+    </header>
+    
+    <navbar id="Navbar">
+      <a href = "solstice.html"></href><button id="BackButton">Back</button> </a>
+      <a href = "index.html"><button id="NextButton">Next</button></a>
+    </navbar>
+    
+    <div id="map"></div>
+    <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+    <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB049jxKz0oWIrsVlr1uqObPkbW-rPFwHo&callback=forageMap&v=weekly"
+    async
+    ></script>
+
+    <p id="description">Head south out of Lakewood Park and up Belle Avenue where you can enjoy walking past the stately homes on this street. End your walking tour with a meal at Forage Public House. The fried cauliflower appetizer and burgers are very tasty. If the weather is warm, you can sit on the shaded patio.</p>
+    <div id="PhotoSection">
+      <img src="/images/forage.png" width=400 id="Photo">
+    </div>
+
+    <footer>
+        API source: <a href="https://developers.google.com/maps/documentation/javascript/overview?hl=en_US#maps_map_simple-javascript" target=new>Google Maps</a>
+        </br>
+        Created by: <a href="https://jenniferjones216.github.io/index.html" target=new>Jennifer Jones</a>
+      </footer>
+
+      </body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lakewood Walking Tour</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <link rel="stylesheet" type="text/css" href="/src/css/style.css" />
+    <script src="../src/js/app.js"></script>    
+  </head>
+  <body>
+    <header>
+        <h4>Lakewood Walking Tour</h4>
+        <h1 id="Title">5. The Solstice Steps at Lakewood Park</h1>
+    </header>
+    
+    <navbar id="Navbar">
+      <a href = "overlook.html"></href><button id="BackButton">Back</button> </a>
+      <a href = "forage.html"><button id="NextButton">Next</button></a>
+    </navbar>
+    
+    <div id="map"></div>
+    <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+    <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB049jxKz0oWIrsVlr1uqObPkbW-rPFwHo&callback=solsticeMap&v=weekly"
+    async
+    ></script>
+
+    <p id="description">Go south on Webb Road and turn left onto Lake Ave. Walk down Lake Avenue until you come to Lakewood Park. You will pass Lakewood Catholic School and several brick apartment buildings on the way. Turn left into Lakewood park. You will walk past the skate park, the pool and the playground, until finally you reach the solstice steps. The solstice steps are a great place to enjoy views of Lake Erie, especially at sunset. If you walk to the bottom of the steps and follow the walkway all the way to the right, there is a striking view of Downtown Cleveland and even free public binoculars that you can look through. The shoreline here is rocky. If you want to enjoy a Lake Erie beach, you will need to head to nearby Edgewater Park in Cleveland (which is not on this walking tour).</p>
+    <div id="PhotoSection">
+      <img src="/images/solstice steps.jpg" width=400 id="Photo">
+    </div>
+
+    <footer>
+        API source: <a href="https://developers.google.com/maps/documentation/javascript/overview?hl=en_US#maps_map_simple-javascript" target=new>Google Maps</a>
+        </br>
+        Created by: <a href="https://jenniferjones216.github.io/index.html" target=new>Jennifer Jones</a>
+      </footer>
+
+      </body>
+</html>
