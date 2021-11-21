@@ -8,19 +8,19 @@
   </head>
   <body>
     <header>
-      <h4>Lakewood Walking Tour</h4>
-      <h1 id="Title">Welcome</h1>
-  </header>
-  
-  <navbar id="Navbar">
-    <a href = "forage.html"></href><button id="BackButton">Back</button> </a>
-    <a href = "location.html"><button id="NextButton">Next</button></a>
-  </navbar>
+        <h4>Lakewood Walking Tour</h4>
+        <h1 id="Title">3. Secret Pedestrian Path</h1>
+    </header>
+    
+    <navbar id="Navbar">
+      <a href = "directions.html"></href><button id="BackButton">Back</button> </a>
+      <a href = "overlook.html"><button id="NextButton">Next</button></a>
+    </navbar>
     
     <div id="map"></div>
     <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
     <script
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB049jxKz0oWIrsVlr1uqObPkbW-rPFwHo&callback=lakewoodMap&v=weekly"
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB049jxKz0oWIrsVlr1uqObPkbW-rPFwHo&callback=pedestrianMap&v=weekly"
     async
     ></script>
 
@@ -30,7 +30,8 @@
     </div>
 
     <footer>
-      API source: <a href="https://developers.google.com/maps/documentation/javascript/overview?hl=en_US#maps_map_simple-javascript" target=new>Google Maps</a>
-    </footer>
+        API source: <a href="https://developers.google.com/maps/documentation/javascript/overview?hl=en_US#maps_map_simple-javascript" target=new>Google Maps</a>
+      </footer>
+
       </body>
 </html>

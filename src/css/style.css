@@ -1,16 +1,80 @@
+html,
+body {
+  width: 400px;
+  margin: auto;
+  height: 100%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+html, header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  }
+
+html, header > h4, h1 {
+  padding: 0px;
+  margin: 0px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+html, navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+#BackButton, #NextButton {
+  display: inline-block;
+  padding: 5px 25px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: white;
+  background-color: #880707;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+#BackButton:hover, #NextButton:hover {
+  background-color: #5f2626;
+
+}
+
+#BackButton:active, #NextButton:active {
+  background-color: #8b4545;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
 /* Always set the map height explicitly to define the size of the div
        * element that contains the map. */
-       #map {
-        height: 300px;
-      }
-       #mapone {
-        height: 300px;
-      }
-      
-      /* Optional: Makes the sample page fill the window. */
-      html,
-      body {
-        height: 80%;
-        margin: 0;
-        padding: 0;
-      }
+#map {
+height: 300px;
+border-style: solid;
+border-width: 5px;
+border-radius: 10px;
+border-color: black;
+}
+       
+#PhotoSection {
+  padding-bottom: 40px;
+}
+
+html, footer {
+  padding-bottom: 20px;
+}

@@ -1,19 +1,37 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Directions Service</title>
+    <title>Lakewood Walking Tour</title>
     <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
-    <link rel="stylesheet" type="text/css" href="/src/css/directionStyle.css" />
-    <script src="/src/js/directions.js"></script>
+    <link rel="stylesheet" type="text/css" href="/src/css/style.css" />
+    <script src="../src/js/app.js"></script>    
   </head>
   <body>
+    <header>
+      <h4>Lakewood Walking Tour</h4>
+      <h1 id="Title">2. Lion Statue</h1>
+  </header>
+  
+  <navbar id="Navbar">
+    <a href = "location.html"></href><button id="BackButton">Back</button> </a>
+    <a href = "pedestrian.html"><button id="NextButton">Next</button></a>
+  </navbar>
     
     <div id="map"></div>
-
     <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
     <script
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB049jxKz0oWIrsVlr1uqObPkbW-rPFwHo&callback=initMap&v=weekly"
-      async
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB049jxKz0oWIrsVlr1uqObPkbW-rPFwHo&callback=lionMap&v=weekly"
+    async
     ></script>
-  </body>
+
+    <p id="description">jdlshcnldif vhl fvldih vlsdfh v;sdf;v hdf;vhsdf;v sdfh vdf hvlsdi hvlfhbvl fvbflsbvdf vdfbl vdfslbsjbv dfjl vdfblj vdfbjs v sdfb vl</p>
+    <div id="PhotoSection">
+      <img src="https://m.media-amazon.com/images/I/51JnSvV4f7L._AC_.jpg" id="Photo">
+    </div>
+
+    <footer>
+      API source: <a href="https://developers.google.com/maps/documentation/javascript/overview?hl=en_US#maps_map_simple-javascript" target=new>Google Maps</a>
+    </footer>
+
+      </body>
 </html>
