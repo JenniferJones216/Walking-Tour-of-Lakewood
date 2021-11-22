@@ -1,8 +1,3 @@
-const BackInput = document.getElementById("BackButton");
-const NextInput = document.getElementById("NextButton");
-const mapSet = document.getElementById("mapSet");
-
-
   function lakewoodMap() {
         let simpleMap;
         simpleMap = new google.maps.Map(document.getElementById("map"), {
