@@ -102,6 +102,16 @@ border-color: black;
   }
 }
 
+ .description > a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.description > a:hover {
+  background-color: rgba(231, 228, 228, 0.863);
+} 
+
 footer {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -116,7 +126,11 @@ footer > a {
   color: black;
 }
 
+
+
 footer > a:hover {
   background-color: blanchedalmond;
 } 
+
+
 
